@@ -1,11 +1,12 @@
 import React from 'react';
-import classComponent from './pembahasan/classComponent.jsx';
-
-export default class komponen extends React.Component {
+import ClassComponent from './pembahasan/ClassComponent.jsx';
+import FunctionalComponent from './pembahasan/FunctionComponent.jsx';
+export default class Komponen extends React.Component {
   render() {
     return (
       <div>
-        <classComponent />
+        <ClassComponent nama="Meysari" />
+        <FunctionalComponent nama="Meysari" />
       </div>
     );
   }

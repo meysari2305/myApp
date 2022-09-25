@@ -1,10 +1,9 @@
-import React from 'react';
-import komponen from './materi/komponen/index';
+import Komponen from './materi/komponen';
 
 function App() {
   return (
     <div className="App">
-      <komponen />
+      <Komponen />
     </div>
   );
 }
